@@ -14,3 +14,12 @@ while i>=1:
 #Descending Order
 for i in range(100,0,-1):
     print(i)
+
+def show(num):
+    if num == 1:
+        return print(1)
+    print(num)
+    return show(num-1)
+
+n = int(input("Enter the nth number: "))
+show(n)
