@@ -1,0 +1,6 @@
+mess = input("Enter your message:")
+mess.replace(":)","😊")
+mess.replace(":(","☹")
+mess.replace(":D","😃")
+mess.replace(";)","😉")
+print("Message with emoji:",mess)
